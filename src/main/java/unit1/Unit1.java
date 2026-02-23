@@ -17,7 +17,7 @@ public class Unit1 {
   */
  public static int addIntegers(int a, int b) {
      // Your code here
-     return 0; // Placeholder return
+     return a+b; // Placeholder return
  }
 
  /**
@@ -29,7 +29,7 @@ public class Unit1 {
   */
  public static int castDoubleToInt(double value) {
      // Your code here
-     return 0; // Placeholder return
+     return (int) (value); // Placeholder return
  }
 
  /**
@@ -41,7 +41,12 @@ public class Unit1 {
   */
  public static boolean isTrue(boolean value) {
      // Your code here
+     if (value){
+        return true;
+     }
+     else{
      return false; // Placeholder return
+     }
  }
 
  /**
@@ -51,8 +56,9 @@ public class Unit1 {
   * @return Integer.MAX_VALUE minus one
   */
  public static int maxValueMinusOne() {
-     // Your code here
-     return 0; // Placeholder return
+    int value = MAX_VALUE - 1; 
+    // Your code here
+     return value; // Placeholder return
  }
 
  /**
@@ -65,6 +71,6 @@ public class Unit1 {
   */
  public static double multiplyIntAndDouble(int a, double b) {
      // Your code here
-     return 0.0; // Placeholder return
+     return (a*b); // Placeholder return
  }
 }
