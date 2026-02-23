@@ -8,7 +8,7 @@ public class Unit1 {
 		System.out.println("Test methods here...");
 	}
  /**
-  * Method 1: Returns the sum of two integers.
+  * Method 1: Returns the sum of two ints
   * TODO: Implement this method to return the sum of the two integer parameters a and b.
   *
   * @param a the first integer
