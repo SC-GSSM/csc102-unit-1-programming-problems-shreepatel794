@@ -56,7 +56,7 @@ public class Unit1 {
   * @return Integer.MAX_VALUE minus one
   */
  public static int maxValueMinusOne() {
-    int value = MAX_VALUE - 1; 
+    int value = Integer.MAX_VALUE - 1; 
     // Your code here
      return value; // Placeholder return
  }
